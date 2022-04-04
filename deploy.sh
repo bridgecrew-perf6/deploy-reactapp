@@ -4,7 +4,7 @@ git checkout deploy
 git reset --hard origin/master
 
 npm install
-npm build
+npm run build
 
 find * -maxdepth 0 -name 'build' -prune -o -exec rm -rf '{}' ';'
 
