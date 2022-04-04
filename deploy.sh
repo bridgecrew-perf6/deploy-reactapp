@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 git checkout deploy
 git reset --hard origin/master
